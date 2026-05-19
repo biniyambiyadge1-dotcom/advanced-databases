@@ -5,9 +5,9 @@ CREATE TABLE Audit_Log (
     action     VARCHAR(100) NOT NULL,
     table_name VARCHAR(50),
     record_id  INT,
-    old_value  TEXT,           -- Value before the change (UPDATE/DELETE)
-    new_value  TEXT,           -- Value after the change  (INSERT/UPDATE)
-    ip_address VARCHAR(45),    -- User's IP address
+    old_value  TEXT,           
+    new_value  TEXT,           
+    ip_address VARCHAR(45),  
     status     ENUM('SUCCESS', 'FAILED') DEFAULT 'SUCCESS',
     timestamp  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (user_id) REFERENCES User_Accounts(account_id)
