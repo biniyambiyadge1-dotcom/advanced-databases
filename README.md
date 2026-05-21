@@ -1,6 +1,9 @@
+# Mizan tepi university
+
+<img src="mtu.webp" alt="MTU" width="30%">
+
 # advanced-databases
 # E-Commerce Platform Database System
-<img src="mtu.webp" alt="MTU" width="30%">
 
 **Course:** Advanced Databases | ITce 2024
 
