@@ -1,7 +1,7 @@
 -- ============================================================
 -- FILE: 11_failure_recovery.sql
 -- SECTION: Failure Recovery (WAL, Checkpointing, Backup, ARIES)
--- CONTRIBUTOR:AMANUEL DERIGISA | ID: MTUUR/8970/17
+-- CONTRIBUTOR:HAMDU IDRIS | ID: MTUUR/8293/17
 -- PROJECT: E-Commerce Platform System
 -- COURSE: Advanced Databases | ITce 2024 | Group 2 Section A
 -- ============================================================
