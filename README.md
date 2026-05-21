@@ -22,7 +22,7 @@
 | No | Name | ID Number | File |
 |----|------|-----------|------|
 | 1 | AFRANO KINATO | MTUUR/8919/17 | `01_create_tables.sql` |
-| 2 | AMANUEL DERIGISA | MTUUR/8970/17 | `02_insert_data.sql` |
+| 2 |HAMDU IDRIS | MTUUR/8293/17 | `02_insert_data.sql` |
 | 3 | BAYE ASNAKE | MTUUR/8832/17 | `03_normalization.sql` |
 | 4 | BEWKET ABIE | MTUUR/7822/17 | `04_optimized_queries.sql` |
 | 5 | BEZAWIT BETROS | MTUUR/7776/17 | `05_transactions.sql` |
@@ -31,7 +31,7 @@
 | 8 | BELAY TESHOME | MTUUR/8606/17 | `08_encryption.sql` |
 | 9 | BINIYAM BIYDIGIE | MTUUR/7866/17 | `09_audit_log.sql` |
 | 10 | ETHIOPIA WORKU | MTUUR/8567/17 | `10_distributed_design.sql` |
-| 11 | HAMDU IDRIS | MTUUR/8293/17 | `11_failure_recovery.sql` |
+| 11 | AMANUEL DERIGISA | MTUUR/8970/17 | `11_failure_recovery.sql` |
 
 ---
 
