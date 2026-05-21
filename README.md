@@ -1,3 +1,4 @@
+<img src="mtu.webp" alt="MTU" width="100%">
 # advanced-databases
 # E-Commerce Platform Database System
 
