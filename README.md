@@ -197,7 +197,6 @@ High performance · Scalability · Reliability · Security · Availability · Da
 | Payments | payment_id, order_id, method, status | One payment per order |
 | Audit_Log | log_id, user_id, action, table_name, timestamp | Records all user activity |
 
----
 <img src="ER_Diagram.jpg" alt="ER_Diagram" width="100%">
 ## Relational schema (logical ER_Diagram)
 <img src="Relational schema.jpg" alt="Relational schema" width="100%">
