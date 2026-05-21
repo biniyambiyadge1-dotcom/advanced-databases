@@ -5,12 +5,6 @@
 -- PROJECT: E-Commerce Platform System
 -- COURSE: Advanced Databases | ITce 2024 | Group 2 Section A
 -- ============================================================
-
--- ============================================================
--- INDEXES (must be created before running queries)
--- Indexes allow the database engine to skip full table scans.
--- ============================================================
-
 -- Optimizes Query 1: product search by category and price range
 CREATE INDEX idx_products_search
     ON Products (category_id, price);
