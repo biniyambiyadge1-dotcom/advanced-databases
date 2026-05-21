@@ -1,4 +1,4 @@
-# Mizan tepi university
+# Mizan-Tepi university
 
 <img src="mtu.webp" alt="MTU" width="30%">
 
