@@ -1,7 +1,7 @@
 -- ============================================================
 -- FILE: 02_insert_data.sql
 -- SECTION: Data Insertion (DML - Sample Data)
--- CONTRIBUTOR: HAMDU IDRIS | ID: MTUUR/8293/17
+-- CONTRIBUTOR: AMANUEL DERIGISA | ID: MTUUR/8970/17
 -- PROJECT: E-Commerce Platform System
 -- COURSE: Advanced Databases | ITce 2024 | Group 2 Section A
 -- ============================================================
