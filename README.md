@@ -1,6 +1,7 @@
 # advanced-databases
 # E-Commerce Platform Database System
-<img src="mtu.webp" alt="MTU" width="50%">
+<img src="mtu.webp" alt="MTU" width="30%">
+
 **Course:** Advanced Databases | ITce 2024
 
 **Section:** A | Group 2
