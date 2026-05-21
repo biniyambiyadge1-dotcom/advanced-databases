@@ -199,6 +199,8 @@ High performance · Scalability · Reliability · Security · Availability · Da
 
 ---
 <img src="ER_Diagram.jpg" alt="ER_Diagram" width="100%">
+*** Relational schema (logical ER_Diagram)***
+<img src="Relational schema.jpg" alt="Relational schema" width="100%">
 ## SQL DDL Scripts
 
 > **Member 1 — Afrano Kinato** | File: `01_create_tables.sql`
