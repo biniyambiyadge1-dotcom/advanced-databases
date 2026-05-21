@@ -1,3 +1,10 @@
+-- ============================================================
+-- FILE: 11_failure_recovery.sql
+-- SECTION: AUDIT_LOG.SQL
+-- CONTRIBUTOR: BINIYAM BIYADGIE | ID: MTUUR/7866/17
+-- PROJECT: E-Commerce Platform System
+-- COURSE: Advanced Databases | ITce 2024 | Group 2 Section A
+-- ============================================================
 CREATE TABLE Audit_Log (
     log_id     INT PRIMARY KEY AUTO_INCREMENT,
     user_id    INT NOT NULL,
@@ -27,7 +34,6 @@ BEGIN
     SELECT account_id INTO v_user_id
     FROM User_Accounts
     WHERE username = p_username;
-
     SET v_status = IF(p_success, 'SUCCESS', 'FAILED');
     INSERT INTO Audit_Log (user_id, username, action, ip_address, status)
     VALUES (v_user_id, p_username, 'LOGIN_ATTEMPT', p_ip_address, v_status);
