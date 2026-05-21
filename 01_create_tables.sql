@@ -11,7 +11,7 @@ CREATE TABLE Customers (
     customer_id INT PRIMARY KEY,
     name        VARCHAR(100),
     email       VARCHAR(150),
-    phone       VARBINARY(255),   -- Stores AES-encrypted phone number
+    phone       VARBINARY(255),  
     city        VARCHAR(100),
     created_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
@@ -75,7 +75,7 @@ CREATE TABLE Payments (
 CREATE TABLE User_Accounts (
     account_id      INT PRIMARY KEY AUTO_INCREMENT,
     username        VARCHAR(100) UNIQUE NOT NULL,
-    password_hash   VARCHAR(255) NOT NULL,   -- Stores bcrypt/SHA2 hash (never plain text)
+    password_hash   VARCHAR(255) NOT NULL,   
     customer_id     INT,
     failed_attempts INT DEFAULT 0,
     locked_until    TIMESTAMP NULL,
